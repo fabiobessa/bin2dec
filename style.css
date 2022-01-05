@@ -1,0 +1,52 @@
+#message {
+  color: red;
+  font-size: 10px;
+  /* opacity: 1;
+  transition: opacity 500ms;
+  animation-delay: 50ms;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-name: fadeOut; */
+}
+
+/* #message:hover {
+  opacity: 1;
+}
+@keyframes fadeOut {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
+html,
+body {
+  height: 100%;
+}
+html {
+  display: table;
+  width: 100%;
+}
+body {
+  background-color: #f0ffff;
+  font-family: 'Unbutu', sans-serif;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#result {
+  color: rgb(0, 0, 0);
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#binary {
+  color: green;
+  background-color: black;
+  font-family: 'Vt323', monospace;
+  font-size: 20px;
+}
