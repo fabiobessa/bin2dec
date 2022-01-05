@@ -1,25 +1,7 @@
 #message {
   color: red;
   font-size: 10px;
-  /* opacity: 1;
-  transition: opacity 500ms;
-  animation-delay: 50ms;
-  animation-duration: 1.5s;
-  animation-fill-mode: both;
-  animation-name: fadeOut; */
-}
-
-/* #message:hover {
-  opacity: 1;
-}
-@keyframes fadeOut {
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-} */
+ 
 html,
 body {
   height: 100%;
