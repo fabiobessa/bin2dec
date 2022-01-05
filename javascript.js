@@ -9,7 +9,7 @@ function bin2Dec() {
 }
 
 var inputBinary = document.querySelector('#binary')
-inputBinary.addEventListener('keypress', function (e) {
+inputBinary.addEventListener('keydown', function (e) {
   if (!checkChar(e)) {
     e.preventDefault()
     var elementoMessage = document.getElementById('message')
